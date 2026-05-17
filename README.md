@@ -10,7 +10,7 @@ PromptHub gives you one place to keep reusable prompts and one gesture to paste 
 Free and open source · All local, no network · Native macOS
 
 - Website: https://rana-x.github.io/prompthub/
-- Download: https://github.com/Rana-X/prompthub/releases/latest
+- Download: https://github.com/Rana-X/prompthub/releases/latest/download/PromptHub-1.3.1-macOS.zip
 
 - [Three Ways to Use It](#three-ways-to-use-it)
 - [Settings](#settings)
@@ -45,7 +45,7 @@ PromptHub keeps settings intentionally small:
 
 ## Install
 
-Download builds from the [latest GitHub Release](https://github.com/Rana-X/prompthub/releases/latest) when releases are available.
+Download the latest macOS build from [GitHub Releases](https://github.com/Rana-X/prompthub/releases/latest/download/PromptHub-1.3.1-macOS.zip).
 
 For local development:
 

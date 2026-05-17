@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="PromptHub is a local macOS command center for saving, finding, and pasting reusable prompts into any app."
+    >
+    <title>PromptHub - Launch saved prompts anywhere</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070707'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-size='34' font-weight='700' fill='%23d8ff6f'%3EP%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="PromptHub home">
+        <span class="brand-mark">P</span>
+        <span>PromptHub</span>
+      </a>
+      <nav class="nav-links" aria-label="Site navigation">
+        <a href="#use-case">Use case</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#download">Download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="system-line">Local macOS prompt launcher</p>
+          <h1 id="hero-title">Your prompts, one shortcut away.</h1>
+          <p class="hero-text">
+            PromptHub keeps reusable prompts on your Mac and pastes them into
+            ChatGPT, Claude, Cursor, browsers, or any focused text field.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="https://github.com/Rana-X/prompthub/releases/latest">
+              Download for macOS
+            </a>
+            <a class="button secondary" href="https://github.com/Rana-X/prompthub">
+              View source
+            </a>
+          </div>
+        </div>
+
+        <div class="product-plane" aria-label="PromptHub product preview">
+          <div class="panel-topbar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="command-panel">
+            <div class="command-header">
+              <span>PromptHub</span>
+              <span>Ctrl Opt Space</span>
+            </div>
+            <div class="search-row">Search saved prompts...</div>
+            <article class="prompt-item active">
+              <div>
+                <h2>Rewrite clearly</h2>
+                <p>Make this concise, direct, and useful.</p>
+              </div>
+              <span>;clear</span>
+            </article>
+            <article class="prompt-item">
+              <div>
+                <h2>Code review</h2>
+                <p>Find bugs, risks, and missing tests first.</p>
+              </div>
+              <span>R</span>
+            </article>
+            <article class="prompt-item">
+              <div>
+                <h2>Support reply</h2>
+                <p>Answer warmly without adding fluff.</p>
+              </div>
+              <span>;reply</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="use-case" class="section use-case" aria-labelledby="use-case-title">
+        <div>
+          <p class="section-kicker">Use case</p>
+          <h2 id="use-case-title">Stop rewriting the same prompt.</h2>
+        </div>
+        <p>
+          Save the prompts you reuse every day, then launch them from the edge
+          of your screen, a keyboard shortcut, or a keyword typed anywhere.
+          PromptHub is built for people who move between AI tools and want their
+          best instructions to follow them.
+        </p>
+      </section>
+
+      <section id="how-it-works" class="workflow" aria-labelledby="workflow-title">
+        <div class="workflow-heading">
+          <p class="section-kicker">How it works</p>
+          <h2 id="workflow-title">Three simple ways to paste.</h2>
+        </div>
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>Open the sidebar</h3>
+            <p>Press Ctrl Opt Space or move to the screen edge to browse prompts.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Use a shortcut</h3>
+            <p>Assign A-Z to favorites and paste them with Ctrl Opt plus a letter.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Type a keyword</h3>
+            <p>Type triggers like ;kit or /reply and PromptHub expands them in place.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="download" class="download" aria-labelledby="download-title">
+        <div>
+          <p class="section-kicker">Download</p>
+          <h2 id="download-title">Native, local, and open source.</h2>
+          <p>
+            Prompts stay in local macOS storage. There are no accounts,
+            analytics, telemetry, cloud sync, or update pings.
+          </p>
+        </div>
+        <a class="button primary" href="https://github.com/Rana-X/prompthub/releases/latest">
+          Get the latest release
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

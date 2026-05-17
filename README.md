@@ -9,6 +9,9 @@ PromptHub gives you one place to keep reusable prompts and one gesture to paste 
 
 Free and open source · All local, no network · Native macOS
 
+- Website: https://rana-x.github.io/prompthub/
+- Download: https://github.com/Rana-X/prompthub/releases/latest
+
 - [Three Ways to Use It](#three-ways-to-use-it)
 - [Settings](#settings)
 - [Design Choices](#design-choices)
@@ -36,13 +39,13 @@ PromptHub keeps settings intentionally small:
 
 - **Everything stays on your machine.** Your prompts never leave your Mac. There are no analytics, telemetry, update checks, accounts, or cloud sync.
 - **Native macOS, not Electron.** PromptHub is built with SwiftUI, SwiftData, and AppKit system integration.
-- **Accessibility permission, and nothing more.** PromptHub uses macOS Accessibility APIs to paste into other apps, detect shortcuts, and respond to keywords. It does not record keystrokes, read screen content, or access data from other apps.
+- **Accessibility permission, and nothing more.** PromptHub uses macOS Accessibility APIs to paste into other apps, detect shortcuts, and respond to keywords. It keeps only a short in-memory keyword buffer for local expansion, and it does not read screen content or access data from other apps.
 - **Compact command-center UI.** The interface is tuned for a focused, Cursor-like dark workspace while staying native to macOS.
 - **Free and open source.** Every line of code is public under GPL v3.
 
 ## Install
 
-Download builds from the [GitHub Releases](https://github.com/Rana-X/prompthub/releases) page when releases are available.
+Download builds from the [latest GitHub Release](https://github.com/Rana-X/prompthub/releases/latest) when releases are available.
 
 For local development:
 

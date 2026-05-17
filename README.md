@@ -14,7 +14,6 @@ Free and open source · All local, no network · Native macOS
 - [Design Choices](#design-choices)
 - [Install](#install)
 - [FAQ](#faq)
-- [Credits](#credits)
 
 ## Three Ways to Use It
 
@@ -89,10 +88,6 @@ All prompts are stored locally on your Mac using SwiftData, in `~/Library/Applic
 - **Bug reports** — [open an issue](https://github.com/Rana-X/prompthub/issues/new/choose)
 - **Feature requests** — [start a discussion](https://github.com/Rana-X/prompthub/discussions/new?category=ideas)
 - **Questions** — [ask in discussions](https://github.com/Rana-X/prompthub/discussions/new?category=q-a)
-
-## Credits
-
-PromptHub is a modified GPLv3 derivative of [Hodor](https://github.com/woody-design/hodor), originally created by Woody Li. The current PromptHub rebrand, bundle identity, documentation, and visual direction are maintained in this repository.
 
 ## License
 
